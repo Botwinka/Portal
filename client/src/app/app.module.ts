@@ -1,14 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import {BrowserModule} from "@angular/platform-browser";
+import {NgModule} from "@angular/core";
+import {FormsModule} from "@angular/forms";
+import {AppComponent} from "./app.component";
+import {DogRegisterComponent} from "./dog-register/dog-register.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DogRegisterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
