@@ -4,11 +4,14 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
+    "mapRoot": "./",
+    "module": "commonjs",
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "allowJs":true,
     "typeRoots": [
       "node_modules/@types"
     ],
